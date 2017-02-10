@@ -1,0 +1,7 @@
+<h1>LOGIN</h1>
+
+<%= form_tag url_for(controller:'twitter' action:'loginSupport') do %>
+Email: <%= text_field_tag :email %>
+Password: <%= password_field_tag :password %>
+<%= submit_tag "Login" %>
+<% end %>

@@ -1,4 +1,19 @@
 Rails.application.routes.draw do
+
+  get 'twitter' => 'twitter#index'
+
+  get 'twitter/register' => 'twitter#register' 
+
+  get 'twitter/login' => 'twitter#login'
+
+  get 'twitter/loginSupport' => 'twitter#loginSupport'
+
+  get 'twitter/home_user'
+
+  get 'twitter/new'
+
+  get 'twitter/follow'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
